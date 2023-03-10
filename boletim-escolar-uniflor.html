@@ -1,0 +1,96 @@
+<meta charset="UTF-8" />
+<style>
+  .curso1 {
+    width: 5%;
+    text-align: center;
+  }
+
+  .curso2 {
+    width: calc(50% - 10px);
+  }
+
+  .curso3 {
+    width: 10%;
+  }
+
+  .curso4 {
+    width: 10%;
+  }
+
+  .curso5 {
+    width: 10%;
+  }
+
+  .curso6 {
+    width: 15%;
+  }
+  legenda {
+    margin-top: 10px;
+    display: flex;
+    font-size: 13px;
+  }
+</style>
+<div
+  style="
+    margin: auto;
+    width: 90%;
+    display: flex;
+    border-bottom: 1px solid #c0c0c0;
+    padding-bottom: 20px;
+  "
+>
+  <div style="width: 12%">
+    <img
+      width="100%;"
+      style="margin: auto; display: block"
+      src="https://wing.com.br/Loja/Imagens/logouniflor27102021115811448.png"
+    />
+  </div>
+  <div style="width: 88%">
+    <div style="text-align: center; width: 100%; font-size: 12px; margin: auto">
+      <b style="font-size: 20px"
+        >FACULDADE DE ALTA FLORESTA - FAF (1162)<br />UNIÃO DAS FACULDADES DE
+        ALTA FLORESTA - UNIFLOR</b
+      ><br />Recredenciada pela Portaria Nº 1.364, de julho de 2019 (publicada
+      no Dou Nº 135 de 16 de julho de 2019) e Portaria Nº 1.513, de 29 de agosto
+      de 2019 (publicada no Dou Nº 168 de 30 de agosto de 2019)
+    </div>
+  </div>
+</div>
+<br />
+<div>
+  <h1 style="font-size: 20px; text-align: center">BOLETIM ESCOLAR</h1>
+  <br />
+  <div style="width: 100%; text-align: left"><b>Nome:</b> |strNome|</div>
+  <div style="width: 100%; margin: auto; display: flex">
+    <div style="width: 50%; text-align: left"><b>RG:</b> |strRG|</div>
+    <div style="width: 50%; text-align: left"><b>CPF:</b> |strCPF|</div>
+  </div>
+  <div style="width: 100%; margin: auto; display: flex">
+    <div style="width: 50%; text-align: left">
+      <b>Matrícula:</b> |strMatricula|
+    </div>
+    <div style="width: 50%; text-align: left">
+      <b>Data da Matrícula:</b> |dtmMatricula|
+    </div>
+  </div>
+  <div style="width: 100%; text-align: left">
+    <b>Curso:</b> |strTurmaOuPacote|
+  </div>
+</div>
+<div
+  style="
+    display: flex;
+    border-top: solid;
+    border-bottom: solid;
+    margin-top: 20px;
+    width: calc(100% - 6px);
+    padding: 3px;
+  "
+>
+  <span class="curso6">Período</span><span class="curso1">Cod</span
+  ><span class="curso2">Disciplina</span><span class="curso3">C/H</span
+  ><span class="curso4">Média</span><span class="curso5">Resultado</span>
+</div>
+|sub|
+<legenda><b>LEGENDA:&nbsp;</b><b>C/H:&nbsp;</b>Carga Horária</legenda>
